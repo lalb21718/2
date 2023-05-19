@@ -1,0 +1,13 @@
+public class ReverseString {
+    public static String reverse(String str) {
+        StringBuilder reversed = new StringBuilder(str);
+        reversed.reverse();
+        return reversed.toString();
+    }
+
+    public static void main(String[] args) {
+        String word = "Hello, World!";
+        System.out.println(reverse(word));
+    }
+}
+
